@@ -4,4 +4,4 @@ response = requests.get('https://www.geeksforgeeks.org/python/python-programming
 
 print(response.status_code)
 
-# print(response.content)
+print(response.content)
